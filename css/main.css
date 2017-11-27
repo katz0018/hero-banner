@@ -1,6 +1,6 @@
 html {
   box-sizing: border-box;
-  font-family: sans-serif;
+  font-family: "Open Sans";
 }
 
 *, *::before, *::after {
@@ -16,27 +16,38 @@ body {
   overflow: hidden;
 }
 
-.banner img {
+.content {
+  position: absolute;
+  left: 6rem;
+  top: 12rem;
+  float: left;
+  z-index: 2;
+}
+
+.img-flex {
   width: 100%;
   position: relative;
+  display: block;
 }
 
 h2 {
   background-color: rgba(0, 0, 0, .5);
   font-size: 4rem;
   color: #fff;
+  display: inline;
+  line-height: 5.7rem;
+  transform: translate(-5px);
   margin: 0;
+  top: 24;
 }
 
 p {
   font-style: italic;
   font-size: 2rem;
   margin: 0;
-}
-
-.img-flex {
-  position: absolute;
-  float: left;
-  z-index: 2;
-
+  line-height: 1.5;
+  z-index: 3;
+  top: 12rem;
+  max-height: 17em;
+  transform: translate(-5px);
 }
