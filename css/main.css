@@ -28,20 +28,19 @@ h2 {
   color: #fff;
   line-height: 5.7rem;
   margin: 0;
-  z-index: 3;
+  z-index: 2;
   bottom: 3em;
   left: 40%;
   position: absolute;
   transform: translateX(-50%);
-  display: inline-block;
 }
 
 p {
   font-style: italic;
   font-size: 2rem;
   margin: 0;
-  line-height: 1.5;
-  z-index: 3;
+  z-index: 2;
+  line-height: 3rem;
   position: absolute;
   bottom: .5em;
   left: 40%;
