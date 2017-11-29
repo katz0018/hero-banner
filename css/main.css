@@ -23,26 +23,28 @@ body {
 }
 
 h2 {
-  background-color: rgba(0, 0, 0, .5);
   font-size: 4rem;
-  color: #fff;
   line-height: 5.7rem;
   margin: 0;
-  z-index: 2;
-  bottom: 3em;
-  left: 40%;
-  position: absolute;
-  transform: translateX(-50%);
+}
+
+span {
+  color: #fff;
+  background-color: rgba(0, 0, 0, .5);
 }
 
 p {
   font-style: italic;
   font-size: 2rem;
   margin: 0;
-  z-index: 2;
   line-height: 3rem;
+  width: 100%;
+}
+
+.content {
+  max-width: 50em;
   position: absolute;
   bottom: .5em;
-  left: 40%;
+  left: 50%;
   transform: translateX(-50%);
 }
