@@ -24,7 +24,7 @@ body {
 
 h2 {
   font-size: 4rem;
-  line-height: 5.7rem;
+  line-height: 5.6rem;
   margin: 0;
 }
 
@@ -36,15 +36,15 @@ span {
 p {
   font-style: italic;
   font-size: 2rem;
-  margin: 0;
+  margin: .5em 0 0;
   line-height: 3rem;
-  width: 100%;
 }
 
 .content {
   max-width: 50em;
   position: absolute;
-  bottom: .5em;
-  left: 50%;
+  bottom: 1.5em;
+  left: 54%;
   transform: translateX(-50%);
+  width: 100%;
 }
